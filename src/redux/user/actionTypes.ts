@@ -1,0 +1,15 @@
+export const ActionTypes = {
+    UPDATE_USER_BASIC_INFORMATIONS: "update_user_basic_informations",
+};
+
+export const SagaActionTypes = {
+    GET_USER_BASIC_INFORMATIONS: "get_user_basic_informations",
+};
+
+export enum JourneyStatus {
+    FETCH_JOURNEY_STATUS = "FETCH_JOURNEY_STATUS",
+    FETCH_JOURNEY_STATUS_UPDATE = "FETCH_JOURNEY_STATUS_UPDATE",
+    FETCH_JOURNEY_STATUS_SUCCESS = "FETCH_JOURNEY_STATUS_SUCCESS",
+    FETCH_JOURNEY_STATUS_FAILURE = "FETCH_JOURNEY_STATUS_FAILURE",
+    SET_JOURNEY_STATUS = "SET_JOURNEY_STATUS",
+}

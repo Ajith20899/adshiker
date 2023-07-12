@@ -1,0 +1,46 @@
+import { ReactComponentElement } from "react";
+
+export interface DatePickerPropsI {
+    selectedDate: Date | null;
+    onChangeHandler: (d: Date) => void;
+    isPopupShow: boolean;
+    onCloseModalProps: () => void;
+    width?: string;
+    height?: string;
+    startDate?: Date | null;
+    endDate?: Date | null;
+    dateFormat?: string;
+    disabled?: boolean;
+    placeholderText?: string;
+    inline?: boolean;
+    selectRange?: boolean;
+    isClearable?: boolean;
+    closeOnScroll?: boolean;
+    calendarClassName?: string;
+    minDate?: Date;
+    maxDate?: Date;
+    locale?: string;
+    label?: string;
+    icon?: boolean;
+    showWeekNumbers?: boolean;
+    shouldCloseOnSelect?: boolean;
+    excludeDates?: Date[];
+    excludeTimes?: Date[];
+    showDisabledMonthNavigation?: boolean;
+    className?: string;
+    showTimeSelect?: boolean;
+    customInput?: ReactComponentElement;
+    showTimeInput?: boolean;
+    fixedHeight?: boolean;
+    customTimeInput?: string | ReactComponentElement;
+    renderDayContents?: ReactComponentElement;
+    children?: string | ReactComponentElement;
+    calendarContainer?: ReactComponentElement;
+    renderCustomHeader?: ReactComponentElement;
+    popperPlacement?: Placement;
+    timeClassName?: (date: Date) => string | null;
+    filterDate?: any;
+    styles?: string;
+    onChangeRaw?: (e: FocusEvent<HTMLInputElement>) => void;
+    onSelectHandler?: (d: Date) => void;
+}

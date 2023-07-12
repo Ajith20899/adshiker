@@ -1,0 +1,6 @@
+1) make it dynamic with height, width, fill props
+2) if disabled, onclick should not happen. Need a condition here.
+3) check styles for disabled dates, months list, years list
+4) selected value can be of boolean type, boolean(false) will become false and filled won't work
+5) this must be a boolean condition, and rename to "bordered". border styles must be set predefined
+6) don't use top, left, right, bottom while transitioning. Use transform. This is smoothen the animationon

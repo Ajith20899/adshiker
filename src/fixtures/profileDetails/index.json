@@ -1,0 +1,66 @@
+{
+    "fullName": "Arunkumar B",
+    "accountNames": [
+        {
+            "profilePicture": "https://instagram.com/profile.png",
+            "accountUserName": "abdearun17"
+        },
+        {
+            "profilePicture": "https://instagram.com/profile.png",
+            "accountUserName": "abdearun18"
+        }
+    ],
+    "accounts": [
+        {
+            "accountUserName": "abdearun17",
+            "profilePicture": "https://instagram.com/profile.png",
+            "adshikeCoins": 2000,
+            "posts": 200,
+            "followersCount": 12000,
+            "moneyEarned": 20000,
+            "isVerfied": false,
+            "categories": [
+                {
+                    "id": "entertainment",
+                    "name": "entertainment"
+                },
+                {
+                    "id": "sports",
+                    "name": "sports"
+                }
+            ],
+            "analytics": {
+                "overall": {
+                    "likes": 200000,
+                    "comments": 20000,
+                    "posts": 200
+                },
+                "lastMonth": {
+                    "likes": 20000,
+                    "comments": 2000,
+                    "posts": 20
+                }
+            },
+            "topReachedAds": [
+                {
+                    "adId": "ad_asdf23kls",
+                    "media": [
+                        "https://s3.adshiker.com/image.png"
+                    ],
+                    "campaignTitle": "Medicare",
+                    "campaignDate": 239923932,
+                    "likes": 230
+                },
+                {
+                    "adId": "ad_asdf23kls",
+                    "media": [
+                        "https://s3.adshiker.com/image.png"
+                    ],
+                    "campaignTitle": "Medicare",
+                    "campaignDate": 239923932,
+                    "likes": 230
+                }
+            ]
+        }
+    ]
+}

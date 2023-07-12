@@ -1,0 +1,42 @@
+import { ReactElement } from "react";
+
+export interface PrimaryInputI {
+    value: string;
+    onChangeHandler: (e: any) => void;
+    id?: string;
+    icon?: string | ReactElement;
+    type?: string;
+    pattern?: string;
+    iconWidth?: string;
+    iconHeight?: string;
+    width?: string;
+    height?: string;
+    loaderWidth?: string;
+    loaderHeight?: string;
+    styles?: string;
+    objectFit?: string;
+    iconStyles?: string;
+    alt?: string;
+    color?: string;
+    bgColor?: string;
+    margin?: string;
+    padding?: string;
+    fontSize?: string;
+    errorLabel?: string;
+    capitalizedLabel?: boolean;
+    loading?: boolean | number;
+    label?: string;
+    labelSize?: string;
+    labelColor?: string;
+    className?: string;
+    bordered?: boolean;
+    placeholder?: string;
+    borderRadius?: string;
+    floatingLabel?: boolean;
+    hintFont?: string;
+    onBlur?: () => void;
+    onFocus?: () => void;
+    onKeyDown?: () => void;
+    onKeyPress?: () => void;
+    onMouseDown?: () => void;
+}
